@@ -3,6 +3,9 @@ margin: 0;
 padding: 0;
 box-sizing: border-box;
 }
+body{
+    background: rgb(152, 255, 255);
+}
 .logo{
     height: 80px;
     animation: slideRight 1s ease forwards;
@@ -14,6 +17,7 @@ box-sizing: border-box;
     font-size: 20px;
     font-weight: bold;
     color: black;
+    animation: slideTop 1.5s ease forwards;
 }
 .nav-item{
     margin-right: 15px;
@@ -28,34 +32,72 @@ box-sizing: border-box;
     width: 100%;
 }
 .hero_text{
-    margin: auto;
     color: rgb(0, 255, 255);
     position: absolute;
 }
 .hero_text h1{
     padding: 0px 40px;
-    padding-top: 100px;
-    font-size: 60px;
+    padding-top: 150px;
+    font-size: 80px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bolder;
+    animation: slideLeft 1.5s ease forwards;
 }
 .hero_text h3{
     padding: 0px 50px;
-    font-size: 40px;
+    font-size: 50px;
+    animation: slideTop 1.5s ease forwards;
 }
 .hero_text h6{
+    position: absolute;
+    line-height: 25px;
     padding: 0px 50px;
     text-align: justify;
     letter-spacing: 1px;
+    animation: slideRight 1.5s ease forwards;
 }
-.myPic{
+.Me{
+    height: 600px;
     position: absolute;
 }
-
-
-
-
-
+.mybtn{
+    margin-top: 80px;
+    margin-left: 50px;
+    padding: 0px 50px;
+    column-rule: #fff;
+    font-weight: bold;
+}
+.space{
+    height: 880px;
+}
+.text1{
+    text-align: center;
+    font-weight: bold;
+}
+.text2{
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder
+}
+.aboutme_pic{
+    margin-left: 200px;
+    height: 450px;
+}
+.text_aboutme{
+    text-align: justify;
+    letter-spacing: 1px;
+    line-height: 25px;
+    padding-top: 100px;
+    padding-left:  70px;
+}
+.list{
+    padding-top: 20px;
+    padding-left:  90px;
+}
+.space2{
+    height: 150px;
+}
 
 
 
