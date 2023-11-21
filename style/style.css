@@ -3,17 +3,43 @@ margin: 0;
 padding: 0;
 box-sizing: border-box;
 }
-
+.logo{
+    height: 80px;
+}
 .row{
 --bs-gutter-x:0px !important;
 }
-.mynav{
-width: 100%;
-min-height: 80px;
-position: fixed;
-background: none;
-backdrop-filter: blur(25px);
+.nav-link{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
 }
+.nav-item{
+    margin-right: 15px;
+}
+.mynav{
+    position: fixed;
+    background: #b8d8e3;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .banner h1{
 margin-top: 150px;
 color: #fff;
@@ -41,6 +67,9 @@ height: 40px;
 font-weight: bold;
 animation: slideRight1 3.5s ease forwards;
 }
+
+
+
 /* KEYFRAME ANIMATION */
 @keyframes slideRight {
 0% {
