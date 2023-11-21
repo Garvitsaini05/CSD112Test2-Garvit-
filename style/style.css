@@ -5,10 +5,11 @@ box-sizing: border-box;
 }
 .logo{
     height: 80px;
+    animation: slideRight 1s ease forwards;
 }
 .row{
---bs-gutter-x:0px !important;
-}
+    --bs-gutter-x:0px !important;
+    }
 .nav-link{
     font-size: 20px;
     font-weight: bold;
@@ -18,9 +19,37 @@ box-sizing: border-box;
     margin-right: 15px;
 }
 .mynav{
-    position: fixed;
     background: #b8d8e3;
     width: 100%;
+}
+.hero video{
+    float: left;
+    position: absolute;
+    width: 100%;
+}
+.hero_text{
+    margin: auto;
+    color: rgb(0, 255, 255);
+    position: absolute;
+}
+.hero_text h1{
+    padding: 0px 40px;
+    padding-top: 100px;
+    font-size: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+.hero_text h3{
+    padding: 0px 50px;
+    font-size: 40px;
+}
+.hero_text h6{
+    padding: 0px 50px;
+    text-align: justify;
+    letter-spacing: 1px;
+}
+.myPic{
+    position: absolute;
 }
 
 
